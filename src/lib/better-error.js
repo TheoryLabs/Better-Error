@@ -7,7 +7,7 @@
 // } from '../constants'
 
 
-const BetterErrorApi = ([..._args]) => {
+const BetterErrorApi = (..._args) => {
 
   console.log(`BetterErrorAPI`)
   console.log(`--------------`)
