@@ -1,0 +1,10 @@
+
+
+const CONSTANTS = {
+  FALLBACK_NAME: ,
+  FALLBACK_MESSAGE; ,
+  NATIVE_ERROR_INTERFACE: ,
+  ENVS:
+}
+
+export { CONSTANTS }

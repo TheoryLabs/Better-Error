@@ -1,0 +1,35 @@
+{
+  "name": "@theorylabs/better-error",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "description": "Give me JavaScript's native Error Object. I decorate it with a lil' panash. Then, send it back your way without breaking any weird JavaScripty rules/expectations we all are so fond of. Throw it. Return it. Dance with it. Whatever you do, common convention reins supreme. Why? Because things break. Make them break better.",
+  "author": {
+    "name": "Branden Dane",
+    "email": "Dane@TheoryLabs.dev",
+    "url": "https://TheoryLabs.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheoryLabs/Better-Error.git"
+  },
+  "files": [
+    "./dist/*",
+    "./dist/**",
+    "./dist/**/*"
+  ],
+  "type": "module",
+  "source": "./src/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  },
+  "dependencies": {
+    "superstruct": "^0.15.2"
+  }
+}
