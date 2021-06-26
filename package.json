@@ -1,6 +1,6 @@
 {
   "name": "@theorylabs/better-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "license": "MIT",
   "description": "Give me JavaScript's native Error Object. I decorate it with a lil' panash. Then, send it back your way without breaking any weird JavaScripty rules/expectations we all are so fond of. Throw it. Return it. Dance with it. Whatever you do, common convention reins supreme. Why? Because things break. Make them break better.",
