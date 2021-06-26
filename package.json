@@ -31,5 +31,8 @@
   },
   "dependencies": {
     "superstruct": "^0.15.2"
+  },
+  "publishConfig": {
+  	"access": "public"
   }
 }
