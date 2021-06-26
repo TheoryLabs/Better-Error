@@ -8,13 +8,16 @@
 
 
 const BetterErrorApi = (..._args) => {
-
+  
   console.log(`BetterErrorAPI`)
   console.log(`--------------`)
   console.log(`Args Recieved:`)
-  console.log(_args)
 
-  return _args
+  let args = _args.push(`BetterError`)
+
+  console.log(args)
+
+  return args
 }
 
 

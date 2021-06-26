@@ -1,2 +1,2 @@
-module.exports=function(o){var e=o.slice(0);return console.log("BetterErrorAPI"),console.log("--------------"),console.log("Args Recieved:"),console.log(e),e};
+module.exports=function(){console.log("BetterErrorAPI"),console.log("--------------"),console.log("Args Recieved:");var o=[].slice.call(arguments).push("BetterError");return console.log(o),o};
 //# sourceMappingURL=index.cjs.map
